@@ -94,7 +94,7 @@ app.get('/filterPosts', async (req, res) => {
   res.json(draftPosts)
 })
 
-app.listen(5000, () =>
+app.listen(3000, () =>
   console.log(
     '🚀 Server ready at: http://localhost:3000\n⭐️ See sample requests: http://pris.ly/e/ts/rest-express#3-using-the-rest-api',
   ),
