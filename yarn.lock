@@ -31,25 +31,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/cli@npm:2.0.0-beta.5":
-  version: 2.0.0-beta.5
-  resolution: "@prisma/cli@npm:2.0.0-beta.5"
+"@prisma/cli@npm:2.0.0-beta.6":
+  version: 2.0.0-beta.6
+  resolution: "@prisma/cli@npm:2.0.0-beta.6"
   bin:
     prisma: build/index.js
     prisma2: build/index.js
-  checksum: 3/8ec698f57e43a4918167f74038b9f20799a7535222e5e5a1892c459b47a1fa328b389f39fe2086d895aa88ba2425d2a57746d65076055ce758db9975ab40c8bd
+  checksum: 3/3a9b6bc87c7fc948af42f6febb23e5497cf3d4666c2c793bc09877dad33c6d3397b17fb1ff90c62d1905093d5a72ed429b45c418e29791b60427db999a88f2f8
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:2.0.0-beta.5":
-  version: 2.0.0-beta.5
-  resolution: "@prisma/client@npm:2.0.0-beta.5"
+"@prisma/client@npm:2.0.0-beta.6":
+  version: 2.0.0-beta.6
+  resolution: "@prisma/client@npm:2.0.0-beta.6"
   peerDependencies:
     "@prisma/cli": "*"
   peerDependenciesMeta:
     "@prisma/cli":
       optional: true
-  checksum: 3/d3ffa52c8f119ae7519863815219169e3a8b14d6a2e586edea37754bbd60cbce2adead131fcb8066bbd930b57d74737797961618869b5b881df5101cb1d788d7
+  checksum: 3/d244db365f4b71fff7b119aba8d20399cde9bb92075e33fc42c8e5b80f1514f3385b95badc79e1d2f4bf77215b8f32813d2b7b9930fb28d96a706cd5ec950a9e
   languageName: node
   linkType: hard
 
@@ -201,10 +201,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:14.0.1":
+"@types/node@npm:*":
   version: 14.0.1
   resolution: "@types/node@npm:14.0.1"
   checksum: 3/97255869f674e3324fdef235173bafb7911a0786434703738008d92f5a4ec189bab2c08a1847f80a6569a5622f0f44a190e1479b08e363368a847e84e0c00902
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:14.0.5":
+  version: 14.0.5
+  resolution: "@types/node@npm:14.0.5"
+  checksum: 3/38a9f9b66c2657b4ba520e40073369d4a33438dd45f9c001d98a7cda40e88a5ea28485c320fa00fc706b5473b549cacc9a8b9796e4d69681c032619e12f73f7d
   languageName: node
   linkType: hard
 
@@ -646,6 +653,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cacheable-lookup@npm:^5.0.3":
+  version: 5.0.3
+  resolution: "cacheable-lookup@npm:5.0.3"
+  checksum: 3/a51e3ddb824865b87895a915fc41be6e2097b62932e5441c357711bb87ec23b0a738a7b7a5cefd9043dacd4ed31ca56b62528ec60ba020e360f07175b6ca5bfe
+  languageName: node
+  linkType: hard
+
 "cacheable-request@npm:^6.0.0":
   version: 6.1.0
   resolution: "cacheable-request@npm:6.1.0"
@@ -956,6 +970,15 @@ __metadata:
   dependencies:
     mimic-response: ^2.0.0
   checksum: 3/c5ba32725f138ecdaee8d477243b8fa51c7cb458fa7b694804d1fd6236251b23dfd140a1458da370e0e31a5caf91ffa851f0a9288546e8d0f230cb0a29886b5c
+  languageName: node
+  linkType: hard
+
+"decompress-response@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "decompress-response@npm:6.0.0"
+  dependencies:
+    mimic-response: ^3.1.0
+  checksum: 3/bb8b8c42be7767994764d27f91a3949e3dc9008da82f1aaeab1de40f1ebb50d7abf17b31b2e4000f8d267a1e75f76052efd58d4419124c04bf430e184c164fad
   languageName: node
   linkType: hard
 
@@ -1427,7 +1450,27 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"got@npm:11.1.3, got@npm:^11.0.0-beta.1":
+"got@npm:11.1.4":
+  version: 11.1.4
+  resolution: "got@npm:11.1.4"
+  dependencies:
+    "@sindresorhus/is": ^2.1.1
+    "@szmarczak/http-timer": ^4.0.5
+    "@types/cacheable-request": ^6.0.1
+    "@types/responselike": ^1.0.0
+    cacheable-lookup: ^5.0.3
+    cacheable-request: ^7.0.1
+    decompress-response: ^6.0.0
+    get-stream: ^5.1.0
+    http2-wrapper: ^1.0.0-beta.4.5
+    lowercase-keys: ^2.0.0
+    p-cancelable: ^2.0.0
+    responselike: ^2.0.0
+  checksum: 3/bd65705130ae32a63ad789283f200611ab960bde552a608cff6364390bc6c3e83b5f372fd1030a9567314cbd6ef442e58ffd9a3d1e1041037371d3d45b0afc00
+  languageName: node
+  linkType: hard
+
+"got@npm:^11.0.0-beta.1":
   version: 11.1.3
   resolution: "got@npm:11.1.3"
   dependencies:
@@ -2018,6 +2061,13 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
+"mimic-response@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "mimic-response@npm:3.1.0"
+  checksum: 3/cfbf19f66de6ad46df7481d9e8c1a7f30b6fa77dd771ad4a72a0443265041a39768182bde6d1de39001c2774168635bc74f42902e401c8ba33db55d69b773004
+  languageName: node
+  linkType: hard
+
 "minimatch@npm:^3.0.4":
   version: 3.0.4
   resolution: "minimatch@npm:3.0.4"
@@ -2130,9 +2180,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"nodemon@npm:2.0.3":
-  version: 2.0.3
-  resolution: "nodemon@npm:2.0.3"
+"nodemon@npm:2.0.4":
+  version: 2.0.4
+  resolution: "nodemon@npm:2.0.4"
   dependencies:
     chokidar: ^3.2.2
     debug: ^3.2.6
@@ -2146,7 +2196,7 @@ fsevents@~2.1.2:
     update-notifier: ^4.0.0
   bin:
     nodemon: bin/nodemon.js
-  checksum: 3/3c6edb9ecb6e9f51dcfa13a8f4afe3b119738e8bad684128be7576f1cf239a8d202142421681adf6172cbab898021c4beebc9d91279449f6db796cc94b65042a
+  checksum: 3/b5f32e7feea11cc2e3ae6603f2ed9229f3d13d01e0d7d54aab47d0dac3b5759b07a0f00d0a46de7379a8ca8e5705940508dee6d06e4a22b3f31c57ce52faa936
   languageName: node
   linkType: hard
 
@@ -2406,18 +2456,18 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "prisma-yarn2-repro@workspace:."
   dependencies:
-    "@prisma/cli": 2.0.0-beta.5
-    "@prisma/client": 2.0.0-beta.5
+    "@prisma/cli": 2.0.0-beta.6
+    "@prisma/client": 2.0.0-beta.6
     "@types/body-parser": 1.19.0
     "@types/express": 4.17.6
-    "@types/node": 14.0.1
+    "@types/node": 14.0.5
     "@yarnpkg/pnpify": ^2.0.0-rc.22
     body-parser: 1.19.0
     express: 4.17.1
-    got: 11.1.3
-    nodemon: 2.0.3
-    ts-node: 8.9.0
-    typescript: 3.8.3
+    got: 11.1.4
+    nodemon: 2.0.4
+    ts-node: 8.10.1
+    typescript: 3.9.3
   languageName: unknown
   linkType: soft
 
@@ -3053,9 +3103,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"ts-node@npm:8.9.0":
-  version: 8.9.0
-  resolution: "ts-node@npm:8.9.0"
+"ts-node@npm:8.10.1":
+  version: 8.10.1
+  resolution: "ts-node@npm:8.10.1"
   dependencies:
     arg: ^4.1.0
     diff: ^4.0.1
@@ -3069,7 +3119,7 @@ fsevents@~2.1.2:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 3/c40cd7f544124575873a7ff4e51930203175fdb6158bb919758407b73c5f1d72725ac0a59c5af23fca9f86c095a171990eead9c1c6ea79a8444a699440ff7a03
+  checksum: 3/4eda8591d422bdb9b9464921b4b1d850d3f32a4500db4c067a6d72b8f5c92934645b8d2e5a37c633361ce5664e6d7e426db6049cdf574276196d539c2c526385
   languageName: node
   linkType: hard
 
@@ -3122,23 +3172,23 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-typescript@3.8.3:
-  version: 3.8.3
-  resolution: "typescript@npm:3.8.3"
+typescript@3.9.3:
+  version: 3.9.3
+  resolution: "typescript@npm:3.9.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3/519b11576247fe3570d89a2aa757d8f666aafc0cb9465a6cdd4df09c1dc6bf7285f0c6008d2ac7a55ea26457e767aaab819f58439d80af2cce1d9805b2be1034
+  checksum: 3/f05e6f1c50c635bd7afc95fbc9eb704042b5bec9a77b9c86ddc0c56650c928617d608b9ec9aa468d7b4cf14ac1ea5f540c540c725005a179b54a86665abd9a55
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@3.8.3#builtin<compat/typescript>":
-  version: 3.8.3
-  resolution: "typescript@patch:typescript@npm%3A3.8.3#builtin<compat/typescript>::version=3.8.3&hash=8cac75"
+"typescript@patch:typescript@3.9.3#builtin<compat/typescript>":
+  version: 3.9.3
+  resolution: "typescript@patch:typescript@npm%3A3.9.3#builtin<compat/typescript>::version=3.9.3&hash=8cac75"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 3/a32f5bfbaf77de05a6f7da10baea27c76281d969a73405336e5f53afb465539e2246fa5b83b9d4032046e6484a8f9c331d042dddb00fb74a8499d5a559d58682
+  checksum: 3/a3780f6fdf0502bb152a3ad56cd004db46f70496f1b8317657d9e89dd93c911483625fd25867d6aec1cd2854ccf036ecc614989c9f1b36bec2d5daffa9bfc230
   languageName: node
   linkType: hard
 
