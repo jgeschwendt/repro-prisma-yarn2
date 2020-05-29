@@ -31,25 +31,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/cli@npm:2.0.0-beta.6":
-  version: 2.0.0-beta.6
-  resolution: "@prisma/cli@npm:2.0.0-beta.6"
+"@prisma/cli@npm:2.0.0-beta.7":
+  version: 2.0.0-beta.7
+  resolution: "@prisma/cli@npm:2.0.0-beta.7"
   bin:
     prisma: build/index.js
     prisma2: build/index.js
-  checksum: 3/3a9b6bc87c7fc948af42f6febb23e5497cf3d4666c2c793bc09877dad33c6d3397b17fb1ff90c62d1905093d5a72ed429b45c418e29791b60427db999a88f2f8
+  checksum: 3/88d66904cf12fa514c045c3e167962ba05e7be25be25cbf3794152f12516d19de856d2b12d49032cf62239468f29d4b876ce0f029ed719905421e25f94b2549a
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:2.0.0-beta.6":
-  version: 2.0.0-beta.6
-  resolution: "@prisma/client@npm:2.0.0-beta.6"
+"@prisma/client@npm:2.0.0-beta.7":
+  version: 2.0.0-beta.7
+  resolution: "@prisma/client@npm:2.0.0-beta.7"
   peerDependencies:
     "@prisma/cli": "*"
   peerDependenciesMeta:
     "@prisma/cli":
       optional: true
-  checksum: 3/d244db365f4b71fff7b119aba8d20399cde9bb92075e33fc42c8e5b80f1514f3385b95badc79e1d2f4bf77215b8f32813d2b7b9930fb28d96a706cd5ec950a9e
+  checksum: 3/0670e629539724d22f61b244f02bd979ef7f7a82fb0aed03f38ff864d58136a44e7927fb41ba36e29980ea1b1481022c85bc8257e986be5c5f2acefb8bbd148c
   languageName: node
   linkType: hard
 
@@ -334,7 +334,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:^2.0.0-rc.22":
+"@yarnpkg/pnpify@npm:latest":
   version: 2.0.0-rc.22
   resolution: "@yarnpkg/pnpify@npm:2.0.0-rc.22"
   dependencies:
@@ -2456,17 +2456,17 @@ fsevents@~2.1.2:
   version: 0.0.0-use.local
   resolution: "prisma-yarn2-repro@workspace:."
   dependencies:
-    "@prisma/cli": 2.0.0-beta.6
-    "@prisma/client": 2.0.0-beta.6
+    "@prisma/cli": 2.0.0-beta.7
+    "@prisma/client": 2.0.0-beta.7
     "@types/body-parser": 1.19.0
     "@types/express": 4.17.6
     "@types/node": 14.0.5
-    "@yarnpkg/pnpify": ^2.0.0-rc.22
+    "@yarnpkg/pnpify": latest
     body-parser: 1.19.0
     express: 4.17.1
     got: 11.1.4
     nodemon: 2.0.4
-    ts-node: 8.10.1
+    ts-node: 8.10.2
     typescript: 3.9.3
   languageName: unknown
   linkType: soft
@@ -3103,9 +3103,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"ts-node@npm:8.10.1":
-  version: 8.10.1
-  resolution: "ts-node@npm:8.10.1"
+"ts-node@npm:8.10.2":
+  version: 8.10.2
+  resolution: "ts-node@npm:8.10.2"
   dependencies:
     arg: ^4.1.0
     diff: ^4.0.1
@@ -3119,7 +3119,7 @@ fsevents@~2.1.2:
     ts-node-script: dist/bin-script.js
     ts-node-transpile-only: dist/bin-transpile.js
     ts-script: dist/bin-script-deprecated.js
-  checksum: 3/4eda8591d422bdb9b9464921b4b1d850d3f32a4500db4c067a6d72b8f5c92934645b8d2e5a37c633361ce5664e6d7e426db6049cdf574276196d539c2c526385
+  checksum: 3/cd6e023e073d65ea346cf4a5b70bfd1e7c7f342c967a23a83038fd3462067558a4dda4fc8b238e6709db69aca3847590a93b4c52ae001e23ed9fef3b4fecbc71
   languageName: node
   linkType: hard
 

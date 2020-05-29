@@ -31,11 +31,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     "fallbackPool": [
       [
         "@prisma/cli",
-        "npm:2.0.0-beta.6"
+        "npm:2.0.0-beta.7"
       ],
       [
         "@prisma/client",
-        "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.6"
+        "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.7"
       ],
       [
         "@types/body-parser",
@@ -71,7 +71,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ],
       [
         "ts-node",
-        "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.1"
+        "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.2"
       ],
       [
         "typescript",
@@ -85,8 +85,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@prisma/cli", "npm:2.0.0-beta.6"],
-            ["@prisma/client", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.6"],
+            ["@prisma/cli", "npm:2.0.0-beta.7"],
+            ["@prisma/client", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.7"],
             ["@types/body-parser", "npm:1.19.0"],
             ["@types/express", "npm:4.17.6"],
             ["@types/node", "npm:14.0.5"],
@@ -95,7 +95,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.17.1"],
             ["got", "npm:11.1.4"],
             ["nodemon", "npm:2.0.4"],
-            ["ts-node", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.1"],
+            ["ts-node", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.2"],
             ["typescript", "patch:typescript@npm%3A3.9.3#builtin<compat/typescript>::version=3.9.3&hash=8cac75"]
           ],
           "linkType": "SOFT",
@@ -133,20 +133,20 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@prisma/cli", [
-        ["npm:2.0.0-beta.6", {
-          "packageLocation": "./.yarn/unplugged/@prisma-cli-npm-2.0.0-beta.6-cec1f229aa/node_modules/@prisma/cli/",
+        ["npm:2.0.0-beta.7", {
+          "packageLocation": "./.yarn/unplugged/@prisma-cli-npm-2.0.0-beta.7-c7a96b31a6/node_modules/@prisma/cli/",
           "packageDependencies": [
-            ["@prisma/cli", "npm:2.0.0-beta.6"]
+            ["@prisma/cli", "npm:2.0.0-beta.7"]
           ],
           "linkType": "HARD",
         }]
       ]],
       ["@prisma/client", [
-        ["virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.6", {
-          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-45e3dfffb4/node_modules/@prisma/client/",
+        ["virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.7", {
+          "packageLocation": "./.yarn/unplugged/@prisma-client-virtual-67d0be3dfc/node_modules/@prisma/client/",
           "packageDependencies": [
-            ["@prisma/client", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.6"],
-            ["@prisma/cli", "npm:2.0.0-beta.6"]
+            ["@prisma/client", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.7"],
+            ["@prisma/cli", "npm:2.0.0-beta.7"]
           ],
           "packagePeers": [
             "@prisma/cli"
@@ -2888,8 +2888,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["prisma-yarn2-repro", "workspace:."],
-            ["@prisma/cli", "npm:2.0.0-beta.6"],
-            ["@prisma/client", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.6"],
+            ["@prisma/cli", "npm:2.0.0-beta.7"],
+            ["@prisma/client", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:2.0.0-beta.7"],
             ["@types/body-parser", "npm:1.19.0"],
             ["@types/express", "npm:4.17.6"],
             ["@types/node", "npm:14.0.5"],
@@ -2898,7 +2898,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["express", "npm:4.17.1"],
             ["got", "npm:11.1.4"],
             ["nodemon", "npm:2.0.4"],
-            ["ts-node", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.1"],
+            ["ts-node", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.2"],
             ["typescript", "patch:typescript@npm%3A3.9.3#builtin<compat/typescript>::version=3.9.3&hash=8cac75"]
           ],
           "linkType": "SOFT",
@@ -3600,10 +3600,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ts-node", [
-        ["virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.1", {
-          "packageLocation": "./.yarn/$$virtual/ts-node-virtual-aa7e78cb88/0/cache/ts-node-npm-8.10.1-e294018f17-3.zip/node_modules/ts-node/",
+        ["virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.2", {
+          "packageLocation": "./.yarn/$$virtual/ts-node-virtual-af87a513ff/0/cache/ts-node-npm-8.10.2-b4fe5a56b0-3.zip/node_modules/ts-node/",
           "packageDependencies": [
-            ["ts-node", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.1"],
+            ["ts-node", "virtual:f466be41621d2fb914637c0b3408a013973e5b1f8a42604ae60e80d77314ab49ae19f60f850728a7bc59167c53b2059e9e8e0bf338b5f336b0c794cf184d15df#npm:8.10.2"],
             ["arg", "npm:4.1.3"],
             ["diff", "npm:4.0.2"],
             ["make-error", "npm:1.3.6"],
