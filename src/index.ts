@@ -1,9 +1,16 @@
-// import { PrismaClient } from '@prisma/client'
-import { PrismaClient } from '@prisma/client/../../.prisma/client'
+import { PrismaClient } from '@prisma/client'
 import * as bodyParser from 'body-parser'
 import * as express from 'express'
+import * as path from 'path';
 
-const prisma = new PrismaClient()
+const prisma = new PrismaClient({
+  datasources: {
+    db: {
+      provider: 'sqlite',
+      url: `file:${path.resolve(process.cwd(), 'prisma', 'dev.db')}`,
+    },
+  }
+})
 const app = express()
 
 app.use(bodyParser.json())

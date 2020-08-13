@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "allowJs": false,
+    "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "moduleResolution": "node",
@@ -10,9 +10,6 @@
     "rootDir": "src",
     "skipLibCheck": true,
     "strict": true,
-    "target": "ES2019"
-  },
-  "exclude": [
-    "node_modules"
-  ]
+    "target": "ES2019",
+  }
 }
