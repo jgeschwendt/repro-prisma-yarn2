@@ -4,7 +4,7 @@ install-no-cache:
 	rm .yarn/build-state.yml
 	rm .yarn/install-state.gz
 	rm .pnp.js
-	# yarn
+	yarn install
 
 upgrade-all:
 	yarn set version latest
